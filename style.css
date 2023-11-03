@@ -60,7 +60,7 @@ font-weight: 400;
 line-height: normal;
 padding-bottom: 40px;
 overflow-y: hidden;
-
+margin: 30px;
 }
 #logox{
   
@@ -452,6 +452,7 @@ line-height: normal;
     font-family: 'Inika', serif;
     color: white;
     font-size: 22px;
+    
 }
 
 #textcaixa3{
@@ -532,6 +533,7 @@ width: 50%;
     display: flex;
     align-items: center;
     justify-content:center ;
+        overflow-y: hidden;
 }
 #wtextc1{
     color: #FFF;
@@ -714,13 +716,140 @@ width: 50%;
 
   #Contact{
 width: 100%;
-height: 60vh;
+height: 100vh;
 display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: column;
 
   }
+
+#textcontact1{
+    color: white;
+    font-family: 'Inika', serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 60px;
+    overflow-y: hidden;
+    
+    
+}
+
+.spacetextcontact
+{
+    
+    overflow-y: hidden;
+    color: white;
+    font-family: 'Inika', serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 200px;
+    text-align: initial;
+}
+#divspace{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-direction: row;
+height: 7em;
+    width: 100%;
+    margin: 200px;
+    background-image: url(imgs/Screenshot_324.png);
+
+}
+.linkedin1{
+display: flex;
+height: 4em;
+align-items: center;
+justify-content: space-evenly;
+color: white;
+overflow-y: hidden;
+}
+.worksancora{
+      transition: 3s;
+      color: #FFF;    
+}
+.worksancora:hover{
+    color: aqua;
+}
+#linkcontact1{
+ text-decoration: none;
+ color: #FFF;
+ transition: 3s;
+ display: flex;
+height: 4em;
+width: 400px;
+align-items: center;
+justify-content: space-evenly;
+color: white;
+overflow-y: hidden;
+}
+#linkcontact1:hover{
+ color: aqua;
+
+}
+#linkcontact2{
+    text-decoration: none;
+    color: #FFF;
+    display: flex;
+height: 4em;
+width: 400px;
+align-items: center;
+justify-content: space-evenly;
+color: white;
+overflow-y: hidden;
+transition: 3s;
+}
+#linkcontact2:hover{
+    color: aqua;
+   
+   }
+#linkcontact3{
+    text-decoration: none;
+    color: #FFF;
+    display: flex;
+height: 4em;
+width: 400px;
+align-items: center;
+justify-content: space-evenly;
+color: white;
+overflow-y: hidden;
+transition: 3s;
+
+}
+#linkcontact3:hover{
+    color: aqua;
+   
+   }
+#linkcontact4{
+    text-decoration: none;
+    color: #FFF;
+    display: flex;
+height: 4em;
+width: 400px;
+align-items: center;
+justify-content: space-evenly;
+color: white;
+overflow-y: hidden;
+transition: 3s;
+}
+#linkcontact4:hover{
+    color: aqua;
+   
+   }
+.svgcontato{
+    opacity: 0.1;
+}
+
+
+  
   #adm{
     display: flex;
     align-items: center;
@@ -731,9 +860,31 @@ flex-direction: column;
     color: white;
     font-size: 14px;
   }
+  #figmas{
+    animation: animarg 2s linear infinite; 
+    font-family: 'Playpen Sans', cursive;
+  }
+  #graficos{
+    width: 100%;
+    height: 20em;
+  }
+
+  #graficosdivisao{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   width: 100%;
+  }
+  
+
+.worksancora{
+    text-decoration: none;
+}
 
 
 @media only screen and (max-width: 1280px) {
+    
+   
     #wtextc1{
         color: #FFF;
         font-family: 'Inika', serif;
@@ -1176,10 +1327,12 @@ line-height: normal;
         display: none;
         align-items: center;
         justify-content: center;
+        overflow-y: hidden;
     }
     #figmas{
         width:42px ;
         height:42px;
+        font-family: 'Playpen Sans', cursive;
     }
     #nodee{
         width:42px ;
@@ -1295,9 +1448,137 @@ line-height: normal;
     overflow-y: hidden;
     
     }
+    #graficos{
+        overflow-y: hidden;
+        height: 30em;
+    }
+   #graficosdivisao{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   flex-direction: column;
+   width: 100%;
+   overflow-y: hidden;
+  }
+  
+    .graficoss{
+          width: 300px;
+          height: 200px;
+    }
+
+    .spacetextcontact
+{
+    
+    overflow-y: hidden;
+    color: white;
+    font-family: 'Inika', serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: initial;
+}
+#divspace{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-direction: column;
+   height: 100em;
+    width: 100%;
+    margin: 0px;
+    background-image: url(imgs/Screenshot_324.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: 300px;
+}
+.linkedin1{
+display: flex;
+height: 4em;
+align-items: center;
+justify-content: space-evenly;
+color: white;
+overflow-y: hidden;
+}
+.worksancora{
+      transition: 3s;
+      color: #FFF;    
+}
+.worksancora:hover{
+    color: aqua;
+}
+#linkcontact1{
+ text-decoration: none;
+ color: #FFF;
+ transition: 3s;
+ display: flex;
+height: 4em;
+width: 400px;
+align-items: center;
+justify-content: space-evenly;
+color: white;
+overflow-y: hidden;
+}
+#linkcontact1:hover{
+ color: aqua;
+
+}
+#linkcontact2{
+    text-decoration: none;
+    color: #FFF;
+    display: flex;
+height: 4em;
+width: 400px;
+align-items: center;
+justify-content: space-evenly;
+color: white;
+overflow-y: hidden;
+transition: 3s;
+}
+#linkcontact2:hover{
+    color: aqua;
+   
+   }
+#linkcontact3{
+    text-decoration: none;
+    color: #FFF;
+    display: flex;
+height: 4em;
+width: 400px;
+align-items: center;
+justify-content: space-evenly;
+color: white;
+overflow-y: hidden;
+transition: 3s;
+
+}
+#linkcontact3:hover{
+    color: aqua;
+   
+   }
+#linkcontact4{
+    text-decoration: none;
+    color: #FFF;
+    display: flex;
+height: 4em;
+width: 400px;
+align-items: center;
+justify-content: space-evenly;
+color: white;
+overflow-y: hidden;
+transition: 3s;
+}
+#linkcontact4:hover{
+    color: aqua;
+   
+   }
+.svgcontato{
+    opacity: 0.1;
+}
+    
+  
 }
 
-
-#corpo , #slided , #corpo2 , #caixas , #works , #worksc , {
-    visibility: hidden;
-}
