@@ -116,16 +116,18 @@ function validarFormulario() {
 }
 
 //revel scrool - SR.REVEL TAG 
-window.sr = ScrollReveal({ reset:true });
-
-sr.reveal('#corpo',{duration:2000, rotate:{ x: 2, y : 100 , z:0 }  });
-sr.reveal('#slided',{duration:2000, rotate:{ x: 2, y : 100 , z:0 }  });
-sr.reveal('#corpo2',{duration:2000, rotate:{ x: 2, y : 100 , z:0 }  } );
-sr.reveal('#caixas',{duration:2000, rotate:{ x: 2, y : 100 , z:0 }  } );
-sr.reveal('#works',{duration:2000, rotate:{ x: 2, y : 100 , z:0 }  });
-sr.reveal('#worksc',{duration:2000, rotate:{ x: 2, y : 100 , z:0 }  });
 
 
+  $(document).on('ready', function () {
+    // initialization of aos
+    AOS.init({
+      duration: 2000,
+      once: true
+    });
+  });
+
+
+  
 
 
 
